@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Image Preview Tool</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="search">
+        <p>Enter image link in the search box:</p>
+        <input type="text" id="imgLink">
+        <button type="button" onclick="imgSearch(event)">Search</button>
+    </div>
+    <div id="previewer" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+        <p>Or drag and drop an image here</p>
+    </div>
+    <script src="script.js"></script>
+</body
+</html>
