@@ -1,19 +1,38 @@
-#search{
+body{
+    background-color:black;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+h1{
+    color:peachpuff;
+}
+
+button{
+    background-color:rgb(78, 181, 241);
+    color: white;
+    border-radius: 2em; /* 2 times the size of the current font */
+    transition: all 0.2s;
+}
+
+button:hover{
+    background-color:rgb(64, 149, 198);
 }
 
 #previewer{
     margin: 10px auto;
-    border: 3px solid black;
-    width: 300px;
-    height: 300px;
+    border: 3px solid rgb(255, 218, 185, 0.6);
+    border-style: dashed;
+    border-width: 2px;
+    width: 350px;
+    height: 350px;
     vertical-align: middle;
-    text-align: center;
-    line-height: 225px;
+    line-height: 270px;
 }
 
 #previewer img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     vertical-align: middle;
 }
